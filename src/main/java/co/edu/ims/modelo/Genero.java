@@ -1,8 +1,12 @@
 
 package co.edu.ims.modelo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class Genero {
+    @Id
     private String codigo;
 
     //constructores
